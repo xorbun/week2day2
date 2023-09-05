@@ -21,7 +21,7 @@ else
 
 /* SCRIVI QUI LA TUA RISPOSTA */
 
-let val3= 15;
+let val3= 12;
 let val4= 5;
 if(val3!==val4)
 {
@@ -229,8 +229,10 @@ console.log(me);
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-me.skills.pop();
+//me.skills.pop();
+me.skills.splice(2,1);
 console.log(me.skills);
+
 /* ESERCIZIO 14
   Scrivi del codice per creare un array inizialmente vuoto. Riempilo successivamente con i numeri da 1 a 10.
 */
